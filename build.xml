@@ -8,7 +8,7 @@
 
     <property name="ant-spring-boot.version" value="2.1.4.RELEASE" />
     <property name="lib.dir" location="src/main/resources/lib" />
-    <property name="start-class" value="com.foya.EbillApplication" />
+    <property name="start-class" value="com.foya.BatchApplication" />
 
 
     <target name="classpaths" >
