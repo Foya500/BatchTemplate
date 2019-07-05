@@ -7,7 +7,7 @@ cnt=`ps -ef |grep -v ps |grep -v grep|grep SB.EBILL | wc -l | awk '{printf $1"\n
 
 
 echo "***************************************************"
-echo "*  Start SB.EBILL                           *"
+echo "*  Start EBILL batch                           *"
 echo "***************************************************"
 
 echo "cnt=${cnt}"
