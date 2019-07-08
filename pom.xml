@@ -129,9 +129,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<descriptorRefs>
-						<descriptorRef>jar-with-dependencies</descriptorRef>
-					</descriptorRefs>
+					
 					<includeSystemScope>true</includeSystemScope>
 				</configuration>
 			</plugin>
