@@ -27,7 +27,8 @@ public class BatchApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BatchApplication.class, args);
 	}
-    @Scheduled(cron = "${cron.expression}")  
+ // @Scheduled(cron = "${cron.expression}")  
+    @Scheduled(fixedDelayString = "${fixedDelayString.expression}")
 	public void perform() throws Exception {
         JobParameters jobParameters = new JobParametersBuilder()
         		.addLong("time", System.currentTimeMillis())
