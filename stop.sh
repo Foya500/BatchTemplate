@@ -1,1 +1,0 @@
-kill `cat ./bin/PID_FILE`
